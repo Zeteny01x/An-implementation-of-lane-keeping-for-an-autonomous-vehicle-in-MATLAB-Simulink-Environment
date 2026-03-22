@@ -1,5 +1,7 @@
 ## 2D Simulation subsystem
 
+![2D_Simulation_block_diagram](2D_Simulation_block_diagram.png)
+
 The position values (X and Y) from the vehicle model have constant values added to them to ensure the vehicle is positioned at the correct starting point on the track loaded by the Driving Scenario Reader block. The two signals are then combined into a vector using a Mux block before being passed to the bus conversion system.
 
 The velocity values (Xdot and Ydot) from the model are also rearranged into a vector using a Mux block. Constant values provide the actor ID, roll, and pitch angles to the system. The latter two values are not handled by the vehicle or simulation. Yaw and YawRate provide the orientation angle and angular velocity.
