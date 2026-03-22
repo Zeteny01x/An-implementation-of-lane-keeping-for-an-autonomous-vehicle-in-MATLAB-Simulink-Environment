@@ -2,7 +2,7 @@
 
 
 
-!\[Detections\_block\_diagram](Detections\_block\_diagram.png)
+![Detections_block_diagram](Detections_block_diagram.png)
 
 
 
