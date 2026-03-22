@@ -1,5 +1,7 @@
 ## Controller subsystem
 
+![Controller_block_diagram](Controller_block_diagram.png)
+
 The complete subsystem control the steering and speed of the vehicle. Signals can arrive only on either the PDin1 and Curvature1 inputs or the PDin2 and Curvature2 inputs, depending on whether running a 2D or 3D simulation.
 
 Although other controllers (e.g., MPC) could have been used, the system is built on a PD controller due to its simpler implementation and lower computational requirements.
