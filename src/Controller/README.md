@@ -11,4 +11,4 @@ The error signal passes through a Unit Delay block and a first-order low-pass fi
 Before the steering signals are summed, the controller output is scaled by the Scaling block. The road curvature signal also passes through a Unit Delay block to prevent algebraic loops, then after passing through the Curvature block and weighting, it is added to the controller output.
 
 **Inputs:** PDin1, PDin2 (error signals), Curvature1, Curvature2 (road curvature)  
-**Output:** SteeringAngle [rad]
+**Output:** SteeringAngle [rad], Speed [km/h]
