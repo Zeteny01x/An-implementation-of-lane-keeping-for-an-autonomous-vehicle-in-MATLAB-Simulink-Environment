@@ -1,5 +1,7 @@
 ## 3D Simulation subsystem
 
+![3D_Simulation_block_diagram](3D_Simulation_block_diagram.png)
+
 This subsystem is responsible for simulation in the Unreal Engine-based environment.
 
 A constant value is added to the Y position from the vehicle model to ensure the vehicle starts at the correct position on the loaded track.
