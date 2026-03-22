@@ -7,7 +7,6 @@
 
 
 This subsystem processes data from the windshield-mounted camera and generates control signals for the steering controller.
-
 The input is **LaneBoundaries**, a bus containing road information detected by the sensor. Selector blocks extract the left and right lane boundary information, from which Bus Selector blocks select the following signals:
 
 * **LateralOffset** – distance from vehicle center of mass to left lane boundary
